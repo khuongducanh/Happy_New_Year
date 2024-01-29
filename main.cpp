@@ -80,6 +80,6 @@ int main() {
     textcolor(4);
     _setmode(_fileno(stdout), _O_U16TEXT);
     wcout << L"\nCHÚC MỪNG NĂM MỚI! Có thể năm nay mang lại cho bạn niềm vui, thành công và thịnh vượng. \nChúc bạn và những người thân yêu sức khỏe, hạnh phúc và vô số phước lành trong năm tới. \nChúc mừng những khởi đầu mới và một năm tuyệt vời phía trước!";
-    PlaySound(TEXT("C:\\Users\\nguye\\Downloads\\Happy_new_year.wav"), NULL, SND_FILENAME);
+    PlaySound(TEXT(".Music\\Happy_new_year.mp3"), NULL, SND_FILENAME);
     return 0;
 }
